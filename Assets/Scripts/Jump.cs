@@ -36,7 +36,7 @@ public class Jump : MonoBehaviour
         else if (gr.grounded != true && TopJump != 0)
         {
                 TopJump--;
-                    rb.AddForce(Vector2.up * force * 1.5f);
+                    rb.AddForce(Vector2.up * force * 0.7f);
         }
        else
        {

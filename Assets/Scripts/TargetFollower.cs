@@ -9,6 +9,18 @@ public class TargetFollower : MonoBehaviour
     public Vector3 offset;
     public float minDistance;
 
+    
+    private void Update()
+    {
+        if(Input.GetAxis("Horizontal") < 0)
+        {
+            offset.x = -6;
+        }
+        else if(Input.GetAxis("Horizontal") > 0)
+        {
+            offset.x = 6;
+        }
+    }
     void LateUpdate()
     {
         if (Vector2.Distance(transform.position,target.position + offset) > minDistance)
