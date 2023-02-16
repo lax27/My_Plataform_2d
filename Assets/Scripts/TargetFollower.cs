@@ -12,14 +12,7 @@ public class TargetFollower : MonoBehaviour
     
     private void Update()
     {
-        if(Input.GetAxis("Horizontal") < 0)
-        {
-            offset.x = -6;
-        }
-        else if(Input.GetAxis("Horizontal") > 0)
-        {
-            offset.x = 6;
-        }
+    
     }
     void LateUpdate()
     {

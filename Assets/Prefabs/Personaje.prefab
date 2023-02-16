@@ -177,7 +177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TopJump: 1
-  force: 2200
+  jumMultiply: 0
+  force: 1
 --- !u!95 &4082811211134079960
 Animator:
   serializedVersion: 4

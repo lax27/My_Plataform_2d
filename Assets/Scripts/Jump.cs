@@ -5,6 +5,7 @@ using UnityEngine;
 public class Jump : MonoBehaviour
 {
     public int TopJump = 1;
+    public float jumMultiply = 1;
     Rigidbody2D rb;
     GroundDetector gr;
     public float force;
@@ -18,7 +19,7 @@ public class Jump : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!PauseMenu.instance.isPaused)
+           if (!PauseMenu.instance.isPaused)
 
             if(gr.grounded == true)
             {
@@ -30,13 +31,15 @@ public class Jump : MonoBehaviour
             //primer salto
         if(gr.grounded == true && TopJump != 0)
         {
-                    rb.AddForce(Vector2.up * force);
+                    rb.AddForce(transform.up * force,ForceMode2D.Impulse);
+                
         }
         //segundo salto
         else if (gr.grounded != true && TopJump != 0)
         {
                 TopJump--;
-                    rb.AddForce(Vector2.up * force * 0.7f);
+                rb.AddForce(transform.up * force, ForceMode2D.Impulse);
+                
         }
        else
        {
