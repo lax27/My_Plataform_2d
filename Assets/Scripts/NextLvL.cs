@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class NextLvL : MonoBehaviour
 {
+    public string nextlvl;
     GameObject fsl;
     FinishLvL fl;
     // Start is called before the first frame update
@@ -27,7 +28,7 @@ public class NextLvL : MonoBehaviour
     {
         if(collision.tag == "Player" && fl.isOpen == true)
         {
-            SceneManager.LoadScene("LVL1");
+            SceneManager.LoadScene(nextlvl);
         }
     }
 
