@@ -6,6 +6,7 @@ public class FinishLvL : MonoBehaviour
 {
     SpriteRenderer sr;
     GameObject puerta;
+    public bool isOpen = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class FinishLvL : MonoBehaviour
             sr.flipX = true;
             Debug.Log("Pasar al siguiente nivel");
             Destroy(puerta);
-
+            isOpen = true;
         }
     }
 }
