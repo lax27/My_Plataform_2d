@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cbc9313987f456542b19628990881db3
+guid: bd6326335c2737f4bb4fe49248718308
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Key_0
+      name: Fly-Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 9
-        height: 5
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9526c93ac5eadd145925281d2bba9591
-      internalID: 287796962
+      spriteID: 9a1b902492c44da469f1b32f74328fd9
+      internalID: 886817429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Key_1
+      name: Fly-Sheet_1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1
-        width: 7
-        height: 6
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 794cc891dbe81384b87d26242d836b5c
-      internalID: -1121830077
+      spriteID: 73717a896ce37d24e89354c73a41a0bc
+      internalID: 2092873176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Key_2
+      name: Fly-Sheet_2
       rect:
         serializedVersion: 2
-        x: 25
-        y: 2
-        width: 9
-        height: 5
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31a44957d0309d344a89da55fe0618bf
-      internalID: -431995535
+      spriteID: 4b9feb7bef945694ea21d56989e014ed
+      internalID: 1980321300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Key_3
+      name: Fly-Sheet_3
       rect:
         serializedVersion: 2
-        x: 36
-        y: 1
-        width: 11
-        height: 5
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d27ec0a65b0a4e498c5cbfecba792cb
-      internalID: 1060634408
+      spriteID: dce40224b58a2e44e82fbfe3b15d2d74
+      internalID: -1690301265
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Key_3: 1060634408
-      Key_1: -1121830077
-      Key_0: 287796962
-      Key_2: -431995535
+      Fly-Sheet_1: 2092873176
+      Fly-Sheet_0: 886817429
+      Fly-Sheet_3: -1690301265
+      Fly-Sheet_2: 1980321300
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

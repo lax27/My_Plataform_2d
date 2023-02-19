@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 //
 using UnityEngine.SceneManagement;
-public class MainMenuBottons : MonoBehaviour
+public class BackToMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -16,18 +17,10 @@ public class MainMenuBottons : MonoBehaviour
         
     }
 
-    public void lvelSlect () {
-
-        SceneManager.LoadScene("MenuLvL");
-    }
-
-    public void goToGym()
+    public void BackMenu()
     {
-        SceneManager.LoadScene("Gimnasio");
+
+        SceneManager.LoadScene("MainMenu");
     }
 
-    public void exitGame()
-    {
-        Application.Quit();
-    }
 }

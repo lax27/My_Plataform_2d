@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TrapS : MonoBehaviour
 {
-
+    
+    public Vector3 InitialPos = new Vector3(0, 0, 0);
     GameObject mainCam;
     // Start is called before the first frame update
     void Start()
@@ -22,10 +23,10 @@ public class TrapS : MonoBehaviour
     {
         if(collision.tag == ("Player"))
         {
+     
             mainCam.transform.position = new Vector3(0, 0 - 10);
 
-            collision.gameObject.transform.position = new Vector3(0, 0, 0);
-       
+            collision.gameObject.transform.position = InitialPos;
         }
     }
 }
